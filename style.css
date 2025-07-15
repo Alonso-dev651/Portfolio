@@ -105,7 +105,7 @@ body {
 .projects,
 .about,
 .contact {
-    padding: 5rem 15rem 5rem 15rem;
+    padding: 7rem 15rem 0rem 15rem;
     background-color: #3a3838;
 }
 
@@ -123,7 +123,7 @@ body {
 
 .experience article {
     width: 100%;
-    max-width: 800px;
+    max-width: 1000px;
     background-color: #d6d6d6;
     padding: 2rem;
     border-radius: 10px;
@@ -153,4 +153,78 @@ body {
 
 .experience article ul {
     padding-left: 1rem;
+}
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.projects h2 {
+    font-size: 2rem;
+    color: #ffffff;
+    margin-bottom: 1rem;
+}
+
+.project-list {
+    width: 100%;
+    max-width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.projects article {
+    background-color: #d6d6d6;
+    padding: 2rem;
+    border-radius: 10px;
+    flex: 1 1 45%;
+    max-width: 50%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.projects article h3 {
+    font-size: 1.2rem;
+    color: #333333;
+    margin-bottom: 0.2rem;
+}
+
+.project-image-container {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    background-color: #f0f0f0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0.4rem;
+}
+
+.project-image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.projects article p {
+    margin-bottom: 0.8rem;
+}
+
+.project-links {
+    margin-top: auto;
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.projects article a {
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    background-color: #8a9bfc;
+    color: #333333;
+    transition: background-color 0.3s ease;
 }
